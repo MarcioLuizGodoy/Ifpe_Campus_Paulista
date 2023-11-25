@@ -1,0 +1,25 @@
+Primeira conversão feita livremente do MER.
+
+* unico : chave primaria
+** duplo: chave estrangeira
+
+ Cliente (   nome, cpf*, escolaouorigem,  telefone
+
+EquipamentoEletronico ( nº serie*, marca, modelo,
+ tombamento, cpfcliente**
+
+FuncionarioCtech ( nome,  cpf*, 
+
+
+TecnicoCtech ( nome,  cpf*, registroprofissional, contrato
+
+Estagiario Ctech ( nome, cpf*,  cpfTecnicoCtech**
+
+Chamado ( ticket* ,  defeitodoequipamento, nomeTecnicoresponsavel,
+procedimentorealizado, resumodepassagem, cpftecnicoresponsavel**
+
+
+
+
+
+

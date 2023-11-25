@@ -1,0 +1,47 @@
+	* - primaria
+"" - estrangeira
+
+
+Cliente_prof ( nome, cpf*, escola )
+
+Cliente_prof_telefone ( numeros, cpf_cliente_prof"" )
+
+Equipamento_eletronico ( numero_serie*, tombamento, modelo, cpf_cliente_prof"" )
+
+
+Equipamento_funcionario (  *numero_serie, Cpf_tecnico_ctech*,  
+tombamento_equipamento_eletronico , modelo_equipamento_eletronico,
+nome_tecnico_ctech, registro_profissional_tecnico_ctech, 
+ numero_serie_equipamento_eletronico"" ,
+ cpf_tecnico_ctech"" )
+ 
+tecnico_posssui_ estagiario (  nome, funcao, cpf_estagiario*,
+ tecnico_supervisor_estagiario,
+cpf_tecnico_ctech""  )
+
+
+
+Documentacao( ticket*, nome_tecnico_responsavel,  
+ parececer_tecnico, cpf_tecnico"" )
+
+Defeitos ( *problemas_do_equipamento, ticket_documentacao*, 
+ticket_documentacao "" )
+
+
+Procedimento_realisado (*intervencoes_realizadas,
+ ticket_doucumentacao*,
+ ticket_documentacao"")
+
+
+conselho_final_tecnico ( indicacao _Uso, nome_tecnico_responsavel, 
+
+ ticket_documentcao"" )
+
+
+
+
+
+
+
+
+
