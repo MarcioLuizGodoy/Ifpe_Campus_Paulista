@@ -75,6 +75,9 @@ create table conselho_final_tecnico (
     foreign key ( ticket_documentacao) references documentacao(ticket)
     );
     'Fim da copia da criacao das tabelas do banco de dados!!!'
+    
+    
+    '-----------'
 
 		'inicio dos novos insets'
 
