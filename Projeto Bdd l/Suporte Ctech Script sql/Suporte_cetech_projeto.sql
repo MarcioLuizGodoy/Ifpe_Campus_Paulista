@@ -104,14 +104,11 @@ insert into documentacao values (
     );
 
 insert into defeitos values (
-    'flat de video ruim', 
-    'hd danificado,pouca memoria ram','zzzzkkk1234'
+    'flat de video ruim , hd danificado,pouca memoria ram','zzzzkkk1234'
     );
 
 insert into procedimentos_realizados values (
-    'troca de flat de video, 
-    'troca de hd e aumento de armazenamento,
-    'adicionado 4gb de ram','zzzzkkk1234'
+    'troca de flat de video, troca de hd e aumento de armazenamento, adicionado 4gb de ram','zzzzkkk1234'
     );
 
 insert into conselho_final_tecnico values (
