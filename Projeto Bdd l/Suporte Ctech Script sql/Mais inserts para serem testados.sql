@@ -77,9 +77,6 @@ create table conselho_final_tecnico (
     'Fim da copia da criacao das tabelas do banco de dados!!!'
 
 		'inicio dos novos insets'
-insert into cliente_prof values (
-    '0000','Marinalva Conceito','Carlos Wilson'
-    );
 
 insert into cliente_prof_telefones values (
     '0000','444444'
@@ -111,8 +108,7 @@ insert into defeitos values (
     );
 
 insert into procedimentos_realizados values (
-    'Teste com Multimetro', 
-    'Troca de componentes',
+    'Teste com Multimetro ,Troca de componentes',
     'aaaabbb4321'
     );
 
@@ -120,4 +116,5 @@ insert into conselho_final_tecnico values (
     'evitar comer e beber quando proximo ao equipamento porque tinha restos de comida e cafe ja ressecado na placa',
     'aaaabbb4321'
     ); 
+			 
 			'fim dos novos inserts'
