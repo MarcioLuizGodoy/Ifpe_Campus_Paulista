@@ -115,9 +115,7 @@ insert into procedimentos_realizados values (
     );
 
 insert into conselho_final_tecnico values (
-    'nao permitir que o equipamento seja aberto por outro profissinal fora do suporte tecnico da prefeitura, 
-    'o flat de video foi posto da forma errada e portanto foi danificado. Ademais,
-    'manter o notebook o mais estatico possavel porque as portas usbs sao sensaveis',
+    'nao permitir que o equipamento seja aberto por outro profissinal fora do suporte tecnico da prefeitura, o flat de video foi posto da forma errada e portanto foi danificado. Ademais, manter o notebook o mais estatico possavel porque ass portas usbs sao sensaveis',
     'zzzzkkk1234'
     );
 
