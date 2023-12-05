@@ -74,7 +74,7 @@ create table conselho_final_tecnico (
     ticket_documentacao varchar(100),
     foreign key ( ticket_documentacao) references documentacao(ticket)
     );
-    'Fim da copia da criação das tabelas do banco de dados!!!'
+    'Fim da copia da criacao das tabelas do banco de dados!!!'
 
 		'inicio dos novos insets'
 insert into cliente_prof values (
@@ -112,12 +112,12 @@ insert into defeitos values (
 
 insert into procedimentos_realizados values (
     'Teste com Multimetro', 
-    'Troca de componentes,
+    'Troca de componentes',
     'aaaabbb4321'
     );
 
 insert into conselho_final_tecnico values (
-    'evitar comer  e beber quando proximo ao equipamento porque tinha restos de comida e café já ressecado na placa',
+    'evitar comer e beber quando proximo ao equipamento porque tinha restos de comida e cafe ja ressecado na placa',
     'aaaabbb4321'
     ); 
 			'fim dos novos inserts'
