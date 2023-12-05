@@ -244,7 +244,7 @@ insert into conselho_final_tecnico values (
     );
 
 
-select*from documentacao;
+select * from documentacao;
 
 select * from cliente_prof_telefones
 where numeros = '333333'
