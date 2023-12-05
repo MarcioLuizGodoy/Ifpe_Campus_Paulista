@@ -157,10 +157,7 @@ insert into conselho_final_tecnico values (
     'evitar comer e beber quando proximo ao equipamento porque tinha restos de comida e cafe ja ressecado na placa',
     'aaaabbb4321'
     ); 
-    
-    
-    
-    
+
 
 select * from documentacao;
 
