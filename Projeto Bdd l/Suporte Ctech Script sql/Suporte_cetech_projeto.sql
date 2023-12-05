@@ -11,7 +11,7 @@ create table cliente_prof_telefones (
 	primary key ( numeros, cpf_cliente_prof),
     foreign key (cpf_cliente_prof) references cliente_prof(cpf)
     );
-    
+     
 create table equipamento_eletronico (
     cpf_cliente_prof varchar (20),
     numero_serie varchar (20) not null,
