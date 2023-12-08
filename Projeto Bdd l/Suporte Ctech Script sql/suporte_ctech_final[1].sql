@@ -116,7 +116,6 @@ insert into conselho_final_tecnico values (
     'zzzzkkk1234'
     );
    
-
 insert into equipamento_eletronico values (
     '0000','0b1c','4321','Positivo'
     );
