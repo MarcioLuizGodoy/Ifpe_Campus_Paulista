@@ -158,6 +158,12 @@ insert into conselho_final_tecnico values (
     'aaaabbb4321'
     ); 
 
+
+insert into tecnico_ctech values (
+    'Elys mais alguma coisa','5555','1111'
+    );
+    
+    
 select * from documentacao;
 
 select * from cliente_prof_telefones
