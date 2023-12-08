@@ -130,6 +130,16 @@ insert into equipamento_eletronico values (
 insert into tecnico_ctech values (
     'Gutemberg','7777','2222'
     );
+    
+    
+    
+    
+    insert into tecnico_ctech values (
+    'Elys mais alguma coisa','5555','1111'
+    );
+
+
+
 
 insert into conserto values (
     '0b1c','7777'
@@ -159,10 +169,8 @@ insert into conselho_final_tecnico values (
     ); 
 
 
-insert into tecnico_ctech values (
-    'Elys mais alguma coisa','5555','1111'
-    );
-    
+
+
     
 select * from documentacao;
 
