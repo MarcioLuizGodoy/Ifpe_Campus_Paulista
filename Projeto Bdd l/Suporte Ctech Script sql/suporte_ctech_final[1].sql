@@ -162,6 +162,8 @@ insert into conselho_final_tecnico values (
     ); 
 
 
+
+
 select * from documentacao;
 
 select * from cliente_prof_telefones
@@ -185,5 +187,3 @@ select *
 from tecnico_ctech
 left join estagiario
 on tecnico_ctech.cpf = estagiario.cpf_tecnico_ctech;
-
-
