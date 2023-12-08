@@ -24,7 +24,7 @@ create table equipamento_eletronico (
 create table  tecnico_ctech (
     nome varchar (200) not null,
     cpf varchar(20) not null,
-    registro_profissional varchar (16) not null,
+    registro_profissional varchar (16),
     primary key (cpf)
     );
     
@@ -36,9 +36,9 @@ create table conserto (
     );
     
 create table estagiario (
-    nome varchar (200) not null,
-    cpf varchar(20) not null,
-    supervisor_estagio varchar (20) not null,
+    nome varchar (200),
+    cpf varchar(20),
+    supervisor_estagio varchar (20) ,
     cpf_tecnico_ctech varchar(16),
     primary key ( cpf ),
     foreign key (cpf_tecnico_ctech) references tecnico_ctech(cpf)
@@ -95,7 +95,7 @@ insert into conserto values (
     );
 
 insert into estagiario values (
-    'marcio luiz','1111','marcia marinho','8888'
+    'marcio godoy' ,'1111','marcia marinho','8888'
     );
 
 insert into documentacao values (
@@ -157,10 +157,6 @@ insert into conselho_final_tecnico values (
     'evitar comer e beber quando proximo ao equipamento porque tinha restos de comida e cafe ja ressecado na placa',
     'aaaabbb4321'
     ); 
-    
-    
-    
-    
 
 select * from documentacao;
 
@@ -179,3 +175,10 @@ where cpf = '8888'
 
 delete *from equipamento_eletronico
 where numero_serie = 'zzzzkkk1234'
+
+select *
+from tecnico_ctech
+left join estagiario
+on tecnico_ctech.cpf = estagiario.cpf_tecnico_ctech;
+
+
