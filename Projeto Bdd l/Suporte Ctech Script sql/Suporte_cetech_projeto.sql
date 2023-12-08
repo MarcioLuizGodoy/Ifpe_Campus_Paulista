@@ -115,7 +115,10 @@ insert into conselho_final_tecnico values (
     'nao permitir que o equipamento seja aberto por outro profissinal fora do suporte tecnico da prefeitura, o flat de video foi posto da forma errada e portanto foi danificado. Ademais, manter o notebook o mais estatico possavel porque ass portas usbs sao sensaveis',
     'zzzzkkk1234'
     );
-   
+    
+    
+    
+    
     insert into cliente_prof_telefones values (
     '0000','444444'
     );
