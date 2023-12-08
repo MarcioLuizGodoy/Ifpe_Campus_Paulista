@@ -131,14 +131,10 @@ insert into tecnico_ctech values (
     'Gutemberg','7777','2222'
     );
     
-    
-    
-    
+   
     insert into tecnico_ctech values (
     'Elys mais alguma coisa','5555','1111'
     );
-
-
 
 
 insert into conserto values (
