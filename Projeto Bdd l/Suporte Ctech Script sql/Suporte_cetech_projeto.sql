@@ -119,9 +119,6 @@ insert into conselho_final_tecnico values (
     
     
     
-    insert into cliente_prof_telefones values (
-    '0000','444444'
-    );
 
 insert into equipamento_eletronico values (
     '0000','0b1c','4321','Positivo'
@@ -132,7 +129,7 @@ insert into tecnico_ctech values (
     );
     
    
-    insert into tecnico_ctech values (
+insert into tecnico_ctech values (
     'Elys mais alguma coisa','5555','1111'
     );
 
@@ -164,6 +161,7 @@ insert into conselho_final_tecnico values (
     'aaaabbb4321'
     ); 
 
+
 select * from documentacao;
 
 select * from cliente_prof_telefones
@@ -181,6 +179,7 @@ where cpf = '8888'
 
 delete *from equipamento_eletronico
 where numero_serie = 'zzzzkkk1234'
+
 
 select *
 from tecnico_ctech
