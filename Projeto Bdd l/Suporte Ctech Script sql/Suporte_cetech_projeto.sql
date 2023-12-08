@@ -168,10 +168,6 @@ insert into conselho_final_tecnico values (
     'aaaabbb4321'
     ); 
 
-
-
-
-    
 select * from documentacao;
 
 select * from cliente_prof_telefones
