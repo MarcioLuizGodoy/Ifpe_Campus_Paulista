@@ -1,1 +1,0 @@
-Ainda falta o insert usando JOIN. Atente-se a isso!
