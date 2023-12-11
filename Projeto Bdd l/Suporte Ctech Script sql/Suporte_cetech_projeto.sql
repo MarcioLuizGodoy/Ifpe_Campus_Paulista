@@ -69,7 +69,7 @@ create table procedimentos_realizados (
     );
     
 create table conselho_final_tecnico ( 
-    indicacao_uso varchar (200),
+    indicacao_uso varchar (300),
     ticket_documentacao varchar(100),
     foreign key ( ticket_documentacao) references documentacao(ticket)
     );
