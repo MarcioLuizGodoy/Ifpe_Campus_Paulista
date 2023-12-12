@@ -1,0 +1,25 @@
+
+
+O setor de suporte técnico da prefeitura do Recife deseja melhorar sua operação, e para isso chamou um profissional que pudesse criar o banco de dados do setor.
+Após diversas analéses de necessidades, chegou-se na conclusão do seguinte modelo:
+
+O cliente e professor tem um equipamento eletrônico ou varios, para cada cliente deve-se registrar o nome, cpf, escola de origem, e o telefone. 
+Para o equipamento eletrônico deve-se registrar o numero de série, tombamento e modelo do equipamento.
+Cada equipamento pode  ser diagnosticado e consertado por vários técnicos. 
+
+Os técnicos podem diagnosticar e consertar varios equipamentos eltrônicos. Para o técnico é necessário registrar o nome, cpf e registro profissional.
+
+É importante registrar também que cada técnico pode orientar nenhum ou varios estagiários, que ficam sobre sua tutela.
+
+Ainda sobre o estagiário é necessário registrar o nome, cpf, função e supervisor de estágio.
+
+O técnico como responsavél pelo equipamento elétronico, deve formalizar a documentação final dos procedimentos realizados e veredito final.
+O tecnico pode fazer varias documentações visto que pode consertar diversos equipamentos, porém cada documentação só pode ter um técnico responsável, sendo esse o responsável pelo conserto.
+
+Para a documentação é importante registrar as seguintes informações: Ticket do documento, laudo técnico, os defeitos, o nome do técnico responsável bem como, os procedimentos realizados na intervenção.
+
+ 
+ 
+ 
+ 
+ 
