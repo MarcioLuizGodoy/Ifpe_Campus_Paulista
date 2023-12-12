@@ -19,7 +19,6 @@ O tecnico pode fazer varias documentações visto que pode consertar diversos eq
 Para a documentação é importante registrar as seguintes informações: Ticket do documento, laudo técnico, os defeitos, o nome do técnico responsável bem como, os procedimentos realizados na intervenção.
 
  
- 
- 
+
  
  
